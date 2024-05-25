@@ -127,3 +127,15 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+-- Asignamos permisos al usuario pepe con contraseña 12345.
+
+GRANT ALL PRIVILEGES ON gestionincidencia.*
+TO pepe@localhost IDENTIFIED BY '12345';
+
+
+-- Asignamos permisos al usuario olga con contraseña 12345.
+
+GRANT ALL PRIVILEGES ON gestionincidencia.*
+TO olga@localhost IDENTIFIED BY '12345';
