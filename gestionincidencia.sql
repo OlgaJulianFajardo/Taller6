@@ -138,4 +138,4 @@ TO pepe@localhost IDENTIFIED BY '12345';
 -- Asignamos permisos al usuario olga con contraseña 12345.
 
 GRANT ALL PRIVILEGES ON gestionincidencia.*
-TO olga@localhost IDENTIFIED BY '12345';
+TO olga@localhost IDENTIFIED BY '123456';
