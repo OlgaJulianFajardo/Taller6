@@ -25,6 +25,7 @@ public class IncidenciaDAO {
 
 		// Uso try-with-resources para asegurar que el PreparedStatement se cierre automáticamente.
 		try (PreparedStatement sentencia = DatabaseConnection.getConexion().prepareStatement(sql)) {
+			
 			sentencia.setString(1, incidencia.getCodigo());
 			sentencia.setInt(2, incidencia.getPuesto());
 			sentencia.setString(3, incidencia.getProblema());
